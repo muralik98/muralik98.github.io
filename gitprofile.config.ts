@@ -130,6 +130,7 @@ const CONFIG = {
       link: 'https://www.irjet.net/archives/V6/i5/AIME-2019/AIME-08.pdf',
       description:
         'A simple heat generation model for Li-18650 cells.'
+    }
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
