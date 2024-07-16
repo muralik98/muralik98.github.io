@@ -18,6 +18,8 @@ interface AvatarCardProps {
  * @param resumeFileUrl - The URL of the resume file.
  * @returns JSX element representing the AvatarCard.
  */
+
+const CUSTOM_IMAGE_URL = 'https://t3.ftcdn.net/jpg/00/77/60/60/240_F_77606013_X188cE6Zdy13xJJeMVOd2JqYhyiNoJNC.jpg'; // Replace with your custom image URL
 const AvatarCard: React.FC<AvatarCardProps> = ({
   profile,
   loading,
@@ -48,7 +50,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
             >
               {
                 <LazyImage
-                  src={profile.avatar ? profile.avatar : FALLBACK_IMAGE}
+                  src={CUSTOM_IMAGE_URL ? CUSTOM_IMAGE_URL : FALLBACK_IMAGE}
                   alt={profile.name}
                   placeholder={skeleton({
                     widthCls: 'w-full',
