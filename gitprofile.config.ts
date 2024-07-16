@@ -119,7 +119,7 @@ const CONFIG = {
       conferenceName: '',
       journalName: 'Materials Today: Proceedings',
       authors: 'Murali.K, M.Sanjay Sharma, Adarsh Jaygopal',
-      link: 'https://www.sciencedirect.com/science/article/abs/pii/S2214785319339070#preview-section-abstract,
+      link: 'https://www.sciencedirect.com/science/article/abs/pii/S2214785319339070#preview-section-abstract',
       description:
         'Conjugate Heat Transfer simulation of Li-18650 cell. Studying different cooling property and finding optimal parameter which will give most efficient performance.',
     },
