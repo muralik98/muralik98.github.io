@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'muralik98', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['muralik98/Credit-Card-Fraud-Detection', 'muralik98/Used-Car-Price-Prediction', 'muralik98/Customer-Churn-Prediction'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -57,26 +57,12 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
+    linkedin: 'muralik1598',
+    youtube: 'RandomGradient', // example: 'pewdiepie'
+    medium: 'muralik15',
     website: 'https://www.arifszn.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'muralik1598@gmail.com',
   },
   resume: {
     fileUrl:
@@ -100,66 +86,57 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Kotak Mahindra Bank',
+      position: 'Business Analyst',
+      from: 'July 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+      companyLink: 'https://www.kotak.com/en/home.html',
+    }
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Data Science Masters-PW Skills',
+      body: '',
+      year: 'June 2024',
+      link: 'https://cdn.pwskills.com/learn/certificates/be0ffa70-3b6a-4397-8ce9-589bb6fcd77f.pdf',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Indian Institute of Technology-Bombay',
+      degree: 'M.Sc Physics',
+      from: '2020',
+      to: '2022',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'University Visvesvaraya College of Engineering',
+      degree: 'Bachelor of Engineering Mechanical,',
+      from: '2015',
+      to: '2019',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Exploring the efficacy of using various coolants on lithium-ion 18650 cell employing conjugate heat transfer simulation',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'Materials Today: Proceedings',
+      authors: 'Murali.K, M.Sanjay Sharma, Adarsh Jaygopal',
+      link: 'https://www.sciencedirect.com/science/article/abs/pii/S2214785319339070#preview-section-abstract,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Conjugate Heat Transfer simulation of Li-18650 cell. Studying different cooling property and finding optimal parameter which will give most efficient performance.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Mathematical Modeling for Cooling of Cylindrical Li-ion Batteries',
+      journalName: 'International Research Journal of Engineering and Technology-IRJET',
+      authors: 'Murali.K, M.Sanjay Sharma, Adarsh Jaygopal',
+      link: 'https://www.irjet.net/archives/V6/i5/AIME-2019/AIME-08.pdf',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+        'A simple heat generation model for Li-18650 cells.'
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'muralik15', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,7 +148,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'black',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -188,37 +165,15 @@ const CONFIG = {
     themes: [
       'light',
       'dark',
-      'cupcake',
-      'bumblebee',
       'emerald',
       'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
       'wireframe',
       'black',
-      'luxury',
       'dracula',
-      'cmyk',
-      'autumn',
       'business',
-      'acid',
-      'lemonade',
       'night',
-      'coffee',
-      'winter',
       'dim',
-      'nord',
-      'sunset',
-      'procyon',
+      
     ],
 
     // Custom theme, applied to `procyon` theme
