@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['muralik98/Credit-Card-Fraud-Detection', 'muralik98/Used-Car-Price-Prediction', 'muralik98/Customer-Churn-Prediction'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['muralik98/Credit-Card-Fraud-Detection', 'muralik98/multi-label-bank-complaint-classification', 'muralik98/insurance-fraud-detection', 'muralik98/Used-Car-Price-Prediction', 'muralik98/Customer-Churn-Prediction'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -164,15 +164,9 @@ const CONFIG = {
     themes: [
       'light',
       'dark',
-      'emerald',
-      'corporate',
-      'wireframe',
       'black',
-      'dracula',
       'business',
       'night',
-      'dim',
-      
     ],
 
     // Custom theme, applied to `procyon` theme
