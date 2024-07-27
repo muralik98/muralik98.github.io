@@ -60,7 +60,7 @@ const CONFIG = {
     linkedin: 'muralik1598',
     youtube: 'RandomGradient', // example: 'pewdiepie'
     medium: 'muralik15',
-    website: 'https://www.arifszn.com',
+    website: 'https://muralik98.github.io/',
     phone: '',
     email: 'muralik1598@gmail.com',
   },
