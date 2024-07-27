@@ -19,7 +19,8 @@ interface AvatarCardProps {
  * @returns JSX element representing the AvatarCard.
  */
 
-const CUSTOM_IMAGE_URL = 'https://github.com/muralik98/muralik98.github.io/blob/main/src/resource-files/mk3.jpeg'; // Replace with your custom image URL
+const CUSTOM_IMAGE_URL = 'https://raw.githubusercontent.com/muralik98/muralik98.github.io/main/src/resource-files/mk3.jpeg';
+ // Replace with your custom image URL
 const AvatarCard: React.FC<AvatarCardProps> = ({
   profile,
   loading,
