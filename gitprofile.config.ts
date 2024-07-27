@@ -52,9 +52,9 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Murali K',
-    description: '',
-    imageURL: '',
+    title: 'Murali K',
+    description: '-Page',
+    imageURL: 'https://as1.ftcdn.net/v2/jpg/02/85/41/16/1000_F_285411627_jwVhIFmD4dzklBhv5Ayfa1IDlvKISv92.jpg',
   },
   social: {
     linkedin: 'muralik1598',
@@ -165,7 +165,6 @@ const CONFIG = {
       'light',
       'dark',
       'black',
-      'business',
       'night',
     ],
 
