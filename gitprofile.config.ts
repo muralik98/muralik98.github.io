@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['muralik98/Credit-Card-Fraud-Detection', 'muralik98/multi-label-bank-complaint-classification', 'muralik98/insurance-fraud-detection', 'muralik98/Used-Car-Price-Prediction', 'muralik98/Customer-Churn-Prediction'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['muralik98/Credit-Card-Fraud-Detection', 'muralik98/multi-label-bank-complaint-classification', 'muralik98/insurance-fraud-detection', 'muralik98/Used-Car-Price-Prediction', 'muralik98/Customer-Churn-Prediction', 'muralik98/customer-ltv'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Bank Customer Complaint Classification' ,
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A multi-label BERT classification model, to classify bank customer complaints into main category and sub-category so that complaints can be routed easily.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz32UKqeWehbntTWOc921r0BQz5Xa6d0e7keAJ8G4uYQ0RKOGDOCCd20WeQS_XGi16fo0&usqp=CAU',
+          link: 'https://huggingface.co/spaces/muralik0115/Multi-Label-Bank-Complaint-Classification',
         },
         {
-          title: 'Project Name',
+          title: 'Credit Card Fraud Detection',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'A model to predict credit card fraud based on financial, demographic and location details.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqFm5kJiIYsPQ9mH9bXQhhAKZ1Y8Z7a60Nzg&s',
+          link: 'https://credit-card-fraud-detection-kmp2rdgvdhb2adavwjdmzp.streamlit.app',
         },
       ],
     },
