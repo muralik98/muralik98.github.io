@@ -126,7 +126,7 @@ const CONFIG = {
       journalName: 'International Research Journal of Engineering and Technology-IRJET',
       authors: 'Murali.K, M.Sanjay Sharma, Adarsh Jaygopal',
       link: 'https://www.irjet.net/archives/V6/i5/AIME-2019/AIME-08.pdf',
-      description:'The heat generation process in lithium cells is complex due to intricate electrochemistry and external factors such as temperature. We developed a straightforward heat generation model for Li-18650 cells to better understand and manage this process.'
+      description:'The heat generation process in lithium cells is complex due to intricate electrochemistry and external factors such as temperature. We developed a simple mathematical model for  heat generation in Li-18650 cells. With this we can better understand and manage the thermal activity.'
     }
   ],
   // Display articles from your medium or dev account. (Optional)
