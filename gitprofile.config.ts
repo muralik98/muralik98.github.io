@@ -120,16 +120,13 @@ const CONFIG = {
       journalName: 'Materials Today: Proceedings',
       authors: 'Murali.K, M.Sanjay Sharma, Adarsh Jaygopal',
       link: 'https://www.sciencedirect.com/science/article/abs/pii/S2214785319339070#preview-section-abstract',
-      description:
-        'Conjugate Heat Transfer simulation of Li-18650 cell. Studying different cooling property and finding optimal parameter which will give most efficient performance.',
-    },
+      description:'Thermal stability is a crucial aspect of lithium cells. To build a cooling system for them, we developed a Conjugate Heat Transfer simulation of a Li-18650 cell. We studied various cooling properties and identified optimal parameters to achieve the most efficient performance.'    },
     {
       title: 'Mathematical Modeling for Cooling of Cylindrical Li-ion Batteries',
       journalName: 'International Research Journal of Engineering and Technology-IRJET',
       authors: 'Murali.K, M.Sanjay Sharma, Adarsh Jaygopal',
       link: 'https://www.irjet.net/archives/V6/i5/AIME-2019/AIME-08.pdf',
-      description:
-        'A simple heat generation model for Li-18650 cells.'
+      description:'The heat generation process in lithium cells is complex due to intricate electrochemistry and external factors such as temperature. We developed a straightforward heat generation model for Li-18650 cells to better understand and manage this process.'
     }
   ],
   // Display articles from your medium or dev account. (Optional)
